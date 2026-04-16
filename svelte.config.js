@@ -5,7 +5,8 @@ const config = {
 	kit: {
 		adapter: adapter({
 			pages: 'build',
-			assets: 'build'
+			assets: 'build',
+			strict: false
 		}),
 		paths: {
 			base: '/Actividad-electiva2-Leidy-Rodriguez'
